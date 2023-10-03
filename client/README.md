@@ -2,14 +2,8 @@
 
 The Web Testament is a work in progress based on community and internet cooperation to create a full history of the World Wide Web.
 
-# Key Highlights
+# Client Side
 
-This program integrates Auth0 as well as privately hosted proxy servers to ensure secure data. 
+This program holds the front end for the Web Testament. 
 
-Works with the Auth0 Management API as a secure way to store user metadata.
-
-Uses React.JS to form a comfortable user interface that is also securely integrated.
-
-Communicates with a privately hosted proxy server. *Currently just pulls simple information from external APIs.*
-
-Hosted with AWS.
+It utilizes ReactJS to allow for a easy to use user interface that securely interacts with a back end.
