@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState, useEffect } from "react";
 import Navbar from './Navbar';
 import About from './pages/About';
-import Home from './pages/Home';
+import Home2 from './pages/Home2';
 import Purchase from "./pages/Purchase";
 import Page from './pages/Page';
 import Page1 from './pages/Page1';
@@ -121,7 +121,7 @@ const App = () => {
   switch(window.location.pathname) {
     case "/":
       locationDNE = false
-      Component = Home
+      Component = Home2
       break;
     case "/about":
       locationDNE = false
@@ -141,13 +141,12 @@ const App = () => {
       }
       else {
         locationDNE = true
-        Component = Home
+        Component = Home2
         break;
       }
       
     }
     return (<>
-      <Navbar />
       <Component />
       
     </>
