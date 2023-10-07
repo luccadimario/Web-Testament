@@ -2,8 +2,10 @@
 
 The Web Testament is a work in progress web application which relies on community and internet cooperation to create a full history of the World Wide Web.
 
-# Client Side
+# Key Highlights
 
-This program holds the front end for the Web Testament. 
+This is the server side for The Web Testament.
 
-It utilizes ReactJS to allow for a easy to use user interface that securely interacts with a back end.
+Gets data securely from external APIs.
+
+Communicates with MySQL server to store user data and page text.

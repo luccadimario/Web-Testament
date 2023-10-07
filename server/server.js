@@ -22,7 +22,7 @@ const db = mysql.createPool({
     connectionLimit : 10,
     host            : 'localhost',
     user            : 'root',
-    password        : 'Thisrocks1!',
+    password        : '',
     database        : 'sql_web_test'
 });
 
